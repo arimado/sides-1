@@ -15,16 +15,15 @@
 
     <div id="app">
         <div class="row container">
-            <div id="sidebar" class="col-xs-4">
+            <div id="sidebar" class="col-xs-3">
 
                     <form id="mainInput">
                         <input id="inputContent" type="text" class="form-control" placeholder="postcode">
                     </form>
 
-
                     <div class="checkbox">
-                        <input class="btn btn-default" type="button" value="Schools">
-                        <input class="btn btn-default" type="button" value="Evac sites">
+                        <!-- <input class="btn btn-default" type="button" value="Schools">
+                        <input class="btn btn-default" type="button" value="Evac sites"> -->
                     </div>
 
                     <ul id="list">
@@ -32,16 +31,16 @@
                     </ul>
 
             </div>
-            <div id="content" class="col">
-                <div>
+            <div id="content" class="col-xs-9">
 
-                    <input id="addSite" class="btn btn-default" type="button" value="Add evac site">
-                    <input id="siteCapacity" type="text" placeholder="capacity">
-                    <input id="run" class="btn btn-default" type="button" value="Run">
-                    <input id="test" class="btn btn-default" type="button" value="Test">
+                <div class="bar">
+                    <form class="form-inline">
+                        <input id="addSite" class="btn btn-default" type="button" value="Add evac site">
+                        <input id="siteCapacity" class="form-control" type="text" placeholder="capacity">
+                        <input id="run" class="btn btn-default" type="button" value="Run">
+                    </form>
                 </div>
                 <div id="map">
-
                 </div>
             </div>
         </div>
